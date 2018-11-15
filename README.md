@@ -13,7 +13,7 @@ If the ConnectionStatus is ``Success``, you can now set the Rich Presence via ``
 Example:
 
 ```
-QuarrelAppService service = new QuarrelAppService("<applicationId");
+QuarrelAppService service = new QuarrelAppService("<applicationId>");
             await service.TryConnectAsync();
             if (service.Status == Windows.ApplicationModel.AppService.AppServiceConnectionStatus.Success)
             {
